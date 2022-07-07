@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+section{
+width: 500px;
+ display: flex;
+ justify-content: space-between;
+    padding: 1.2rem;
+    border-radius: 10px;
+    background-color: #4f91c0;
+}
+
+
+#name, #alter, #geschlecht, input, select{
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    border-radius:5px ;
+    outline: none;
+    margin: 0.5rem;
+    border: none;
+    
+  
+}
+
+#name, #alter, #geschlecht{
+    display: grid;
+    place-items: center;
+    color: darkblue;
+}
+
+
+.frage{
+    display: grid;
+}
+.result{
+    display: grid;
+   
+}
